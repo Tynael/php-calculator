@@ -1,0 +1,21 @@
+{
+    "name": "PHP Calculator",
+    "description": "A simple CLI PHP calculator",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Carol Pelu",
+            "email": "carol@neutrondev.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.4",
+        "symfony/yaml": "^4.4",
+        "pimple/pimple": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+          "Cpelu\\ConsoleApp\\": "src/"
+        }
+      }
+}
